@@ -2,18 +2,62 @@ body {
   margin: 0;
 }
 
+.nav-bar {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+.robocup-logo-img {
+  padding: 5px 5px;
+  height: 60px;
+}
+
 .full-page {
   height: 100vh;
-  background-color: black;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  font-size: 200px;
+}
+
+.welcome-section {
+  padding-top: 60px;
+  background-color: #0c0c0c;
   color: white;
 }
 
-.title-left {
-  display: flex;
-  font-size: 200px;
+.intorduction-section {
+  padding-top: 60px;
+  background-color: #1e1e1e;
+  color: white;
 }
 
-.title-right {
+.introduction-text {
   display: flex;
-  font-size: 200px;
+  width: 1000px;
+  color: white;
+  font-size: 40pt;
+}
+
+@media (max-width: 800px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    font-size: 10em;
+  }
+  .introduction-text {
+    display: flex;
+    width: 600px;
+    color: white;
+    font-size: 20pt;
+  }
 }
