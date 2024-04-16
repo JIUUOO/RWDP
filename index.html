@@ -10,7 +10,6 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -23,66 +22,102 @@
       </ul>
     </header> -->
     <div class="container-fluid">
-      <div class="row full-page bg-success align-items-center">
-        <div class="col-12">
-          <span class="text-center text-dark display-1">RoboCup Korea</span>
+      <main class="row justify-content-center">
+        <div
+          class="row full-page bg-success justify-content-center align-items-center"
+        >
+          <section class="width-limit">
+            <h1 class="text-center text-dark display-1 fw-bold">
+              RoboCup Korea
+            </h1>
+          </section>
         </div>
-      </div>
-      <div class="row bg-white align-items-center">
-        <div class="col-12 text-center fs-5 p-5">
-          사단법인 한국로보컵협회는 로봇을 연구하는 학생들을 위한 지역, 국가를
-          위해 로봇 이벤트를 수행하는 프로젝트 중심의 교육증진 운동입니다.
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-black text-white">
-      <div class="row">
-        <!-- soccer start -->
-        <div class="row">
-          <div class="col-12">
-            <div class="row p-2">
-              <h2 class="mt-2 mx-2 display-2 fw-bold">Soccer</h2>
-              <div class="col-12">
-                <p class="px-2 fs-6">
-                  외부의 조작 없이 경기가 진행되며 공을 드리블하여 상대의 골대
-                  안으로 넣는 로봇 축구경기 입니다.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-sm-12 col-xl-6">
-            <div class="row pt-1 px-3">
-              <h3 class="mt-2 fs-2 fw-semibold">Soccer Lightweight</h3>
-              <img
-                class="col-md-7 col-xl-12 col-xxl-8 img-fluid"
-                src="Soccer_Lightweight.jpg"
-                alt="Soccer_Lightweight.jpg"
-              />
-              <div class="col-md-5 col-xl-12 col-xxl-4 pt-1">
-                <p class="m-1 fs-6">적외선 공을 사용합니다.</p>
-                <button class="btn btn-light">규정 알아보기</button>
-              </div>
+        <section>
+          <div class="row bg-white">
+            <div class="text-center fs-5 p-5">
+              사단법인 한국로보컵협회는 로봇을 연구하는 학생들을 위한 지역,
+              국가를 위해 로봇 이벤트를 수행하는 프로젝트 중심의 교육증진
+              운동입니다.
             </div>
           </div>
-          <div class="col-sm-12 col-xl-6">
-            <div class="row pt-1 px-3">
-              <h3 class="mt-2 fs-2 fw-semibold">Soccer Open</h3>
-              <img
-                class="col-md-7 col-xl-12 col-xxl-8 img-fluid"
-                src="Soccer_Open.jpg"
-                alt="Soccer_Open.jpg"
-              />
-              <div class="col-md-5 col-xl-12 col-xxl-4 mt-1">
-                <p class="m-1 fs-6">주황색 플라스틱 공을 사용합니다.</p>
-                <button class="btn btn-light">규정 알아보기</button>
-              </div>
-              <div class="m-5"></div>
+        </section>
+
+        <!-- soccer row start -->
+        <div class="row pt-4 bg-black text-white justify-content-center">
+          <section class="width-limit">
+            <div class="row px-4">
+              <h2 class="display-2 fw-bold">Soccer</h2>
+              <p class="fs-6 px-4 mb-0">
+                외부의 조작 없이 경기가 진행되며 공을 드리블하여 상대의 골대
+                안으로 넣는 로봇 축구경기입니다. 한 팀당 2대의 로봇을 출전시킬
+                수 있으며 정해진 로봇 디자인이나 프로그램은 없습니다. 단, 크기와
+                무게에는 제한이 있습니다.
+              </p>
             </div>
-          </div>
+
+            <div class="row px-4">
+              <!-- breakpoints -->
+              <div class="col-sm-12 col-xl-6">
+                <div class="row">
+                  <h3 class="mt-4 fs-2 fw-semibold">Soccer Lightweight</h3>
+                  <!-- breakpoints -->
+                  <div
+                    class="col-sm-12 col-md-7 col-xl-12 px-4 px-md-4 px-xl-4"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="Soccer_Lightweight.jpg"
+                      alt="Soccer_Lightweight.jpg"
+                    />
+                  </div>
+                  <!-- breakpoints -->
+                  <div
+                    class="col-sm-12 col-md-5 col-xl-12 px-4 px-md-0 px-xl-4 pt-3 pt-md-0 pt-xl-3"
+                  >
+                    <div class="text-center text-md-start text-xl-center">
+                      <p class="fs-6">적외선 공을 사용합니다.</p>
+                      <button class="btn btn-light">규정 알아보기</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- breakpoints -->
+              <div class="col-sm-12 col-xl-6">
+                <div class="row">
+                  <h3 class="mt-4 fs-2 fw-semibold">Soccer Open</h3>
+                  <!-- breakpoints -->
+                  <div
+                    class="col-sm-12 col-md-7 col-xl-12 px-4 px-md-4 px-xl-4"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="Soccer_Open.jpg"
+                      alt="Soccer_Open.jpg"
+                    />
+                  </div>
+                  <!-- breakpoints -->
+                  <div
+                    class="col-sm-12 col-md-5 col-xl-12 px-4 px-md-0 px-xl-4 pt-3 pt-md-0 pt-xl-3"
+                  >
+                    <div class="text-center text-md-start text-xl-center">
+                      <p class="fs-6">주황색 플라스틱 공을 사용합니다.</p>
+                      <button class="btn btn-light">규정 알아보기</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-        <!-- soccer end -->
-      </div>
+        <div class="row pt-4 bg-black text-white justify-content-center">
+          <div class="p-5"></div>
+        </div>
+        <!-- soccer row end -->
+      </main>
+      <footer>
+        <div class="p-2 text-end">문의: nninjiuuoo@gmail.com</div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
