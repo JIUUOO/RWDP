@@ -27,15 +27,26 @@
           </div>
         </div>
         <div class="row">
-          <div
-            class="col bg-white d-flex justify-content-center align-items-center"
-          >
+          <div class="col bg-white d-flex flex-column align-items-center">
             <div>
               <p class="fs-5 p-5">
                 사단법인 한국로보컵협회는 로봇을 연구하는 학생들을 위한 지역,
                 국가를 위해 로봇 이벤트를 수행하는 프로젝트 중심의 교육증진
                 운동입니다.
               </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col bg-info d-flex flex-column align-items-center">
+            <div class="history-animation-wrap">
+              <p class="history-animation fs-3">
+                로보컵 2011 로보컵 2012 로보컵 2013
+              </p>
+              <p class="history-animation fs-5">
+                로보컵 2014 로보컵 2015 로보컵 2016
+              </p>
+              <p class="history-animation fs-6">로보컵 2017 로보컵 2018</p>
             </div>
           </div>
         </div>
@@ -64,11 +75,75 @@
                   </div>
                   <div class="row">
                     <div class="col-12 col-md-7 col-xl-12">
-                      <img
-                        class="img-fluid"
-                        src="soccer_lightweight.jpg"
-                        alt=""
-                      />
+                      <div
+                        id="carouselSoccerLightweight"
+                        class="carousel carousel-white slide"
+                      >
+                        <div class="carousel-indicators">
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerLightweight"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                          ></button>
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerLightweight"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                          ></button>
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerLightweight"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                          ></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div
+                            class="carousel-item active"
+                            data-bs-interval="10000"
+                          >
+                            <img
+                              src="soccer_lightweight.jpg"
+                              class="d-block w-100"
+                              alt=""
+                            />
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="..." class="d-block w-100" alt="" />
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="" />
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselSoccerLightweight"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselSoccerLightweight"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                     </div>
                     <div class="col-12 col-md-5 col-xl-12">
                       <div
@@ -90,14 +165,82 @@
                   </div>
                   <div class="row">
                     <div class="col-12 col-md-7 col-xl-12">
-                      <img class="img-fluid" src="soccer_open.jpg" alt="" />
+                      <div
+                        id="carouselSoccerOpen"
+                        class="carousel carousel-dark slide"
+                      >
+                        <div class="carousel-indicators">
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerOpen"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                          ></button>
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerOpen"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                          ></button>
+                          <button
+                            type="button"
+                            data-bs-target="#carouselSoccerOpen"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                          ></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div
+                            class="carousel-item active"
+                            data-bs-interval="10000"
+                          >
+                            <img
+                              src="soccer_open.jpg"
+                              class="d-block w-100"
+                              alt=""
+                            />
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="..." class="d-block w-100" alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="..." />
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselSoccerOpen"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselSoccerOpen"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                     </div>
                     <div class="col-12 col-md-5 col-xl-12">
                       <div
                         class="d-flex flex-column align-items-center align-items-md-start align-items-xl-center"
                       >
                         <div class="pt-3 pt-md-0 pt-xl-3">
-                          <p>적외선 공을 사용합니다.</p>
+                          <p>주황색 플라스틱 공을 사용합니다.</p>
                         </div>
                         <div>
                           <button class="btn btn-light">규정 살펴보기</button>

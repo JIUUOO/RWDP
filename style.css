@@ -5,3 +5,26 @@
 .max-width-1680px {
   max-width: 1660px;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 70%;
+  height: 70%;
+}
+
+.history-animation-wrap {
+  width: 100%;
+}
+
+.history-animation {
+  animation: horizontal 5s linear infinite;
+}
+
+@keyframes horizontal {
+  0% {
+    transform: translate(110%, 0);
+  }
+  100% {
+    transform: translate(-110%, 0);
+  }
+}
