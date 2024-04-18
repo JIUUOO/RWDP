@@ -1,0 +1,31 @@
+{
+  "name": "robocupkr",
+  "version": "1.0.0",
+  "description": "robocup web development project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "robocup"
+  ],
+  "author": "JIUUOO",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIUUOO/RWDP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JIUUOO/RWDP/issues"
+  },
+  "homepage": "https://github.com/JIUUOO/RWDP#readme",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
