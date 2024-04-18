@@ -1,1 +1,15 @@
+$orange-light: #f2613f;
+$orange-dark: #9b3922;
+$brown: #481e14;
+
+$teal-light: #4fccf3;
+$teal-dark: #3186a0;
+$purple: #4a2370;
+$blue: #1d2087;
+$black: #000000;
+$white: #ffffff;
+
+$primary: $teal-light;
+$secondary: $teal-dark;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
