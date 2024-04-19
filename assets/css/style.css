@@ -11893,8 +11893,26 @@ textarea.form-control-lg {
   background-color: #ffffff;
 }
 
-.brand-img {
-  height: 3.5rem;
+.container-fluid {
+  padding: 0;
+}
+
+.nav-item {
+  display: flex;
+}
+
+.navbar-brand img {
+  max-height: 3.5rem;
+}
+
+.logo--rcka {
+  opacity: 1;
+}
+.logo--rcj {
+  opacity: 0.5;
+}
+.logo--rc {
+  opacity: 0.5;
 }
 
 .intro {
