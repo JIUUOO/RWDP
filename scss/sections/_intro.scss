@@ -1,0 +1,21 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro {
+  div {
+    padding: 0rem 0 0rem 0;
+    width: 100%;
+    height: 80vh;
+
+    // color: $black;
+  }
+  background-color: $primary;
+
+  animation: titleShowUp 2s normal ease-in-out;
+}
+
+.intro-extended {
+  path {
+    animation: titleShowUp 2s normal ease-in-out;
+  }
+}

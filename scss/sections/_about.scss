@@ -1,0 +1,12 @@
+@use "../custom" as *;
+
+.about {
+  span {
+    display: block;
+  }
+  &--intro {
+    padding: 1rem 1rem;
+    background-color: $secondary;
+    color: $white;
+  }
+}

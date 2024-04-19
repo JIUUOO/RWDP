@@ -1,5 +1,7 @@
-@use "custom";
+@use "./custom";
 
-@use "components/typography";
+@use "./components/typography";
 
-@use "sections/intro.scss";
+@use "./sections/navbar";
+@use "./sections/intro";
+@use "./sections/about";

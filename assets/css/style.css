@@ -11844,7 +11844,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.text-title {
+@keyframes titleShowUp {
+  0% {
+    background-color: #ffffff;
+    fill: #ffffff;
+    color: #ffffff;
+  }
+  50% {
+    background-color: #4fccf3;
+    fill: #4fccf3;
+    color: #4fccf3;
+  }
+  100% {
+    color: #000000;
+  }
+}
+@keyframes subtitleShowUp {
+  0% {
+    transform: rotate3d(-1, 0, 0, 0.2turn);
+  }
+  100% {
+    transform: rotate3d(0);
+  }
+}
+.display-1--title {
   display: block;
   font-family: "Gothic A1", sans-serif;
   font-weight: 700;
@@ -11854,19 +11877,47 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 
-.intro {
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #ffffff;
-  color: #ffffff;
+.display-6 {
+  display: flex;
+  justify-content: center;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
 }
-.intro:hover {
+.display-6--subtitle {
+  perspective: 800px;
+  animation: subtitleShowUp 1s normal linear;
+  background: #3186a0;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.brand-img {
+  height: 3.5rem;
+}
+
+.intro {
   background-color: #4fccf3;
-  color: #000000;
-  transition-property: background, color;
-  transition-duration: 1000ms;
-  transition-timing-function: linear;
+  animation: titleShowUp 2s normal ease-in-out;
+}
+.intro div {
+  padding: 0rem 0 0rem 0;
+  width: 100%;
+  height: 80vh;
+}
+
+.intro-extended path {
+  animation: titleShowUp 2s normal ease-in-out;
+}
+
+.about span {
+  display: block;
+}
+.about--intro {
+  padding: 1rem 1rem;
+  background-color: #3186a0;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
