@@ -11844,6 +11844,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.display-1--title {
+  display: block;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-6 {
+  display: flex;
+  justify-content: center;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
+}
+.display-6--subtitle {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  perspective: 800px;
+  color: #ffffff;
+  background: #3186a0;
+}
+
 @keyframes titleShowUp {
   0% {
     background-color: #ffffff;
@@ -11867,51 +11891,25 @@ textarea.form-control-lg {
     transform: rotate3d(0);
   }
 }
-.display-1--title {
-  display: block;
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 700;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.display-6 {
-  display: flex;
-  justify-content: center;
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 500;
-}
-.display-6--subtitle {
-  perspective: 800px;
-  animation: subtitleShowUp 1s normal linear;
-  background: #3186a0;
-}
-
 .menu {
   background-color: #ffffff;
 }
-
-.container-fluid {
+.menu .container-fluid {
   padding: 0;
 }
-
-.nav-item {
+.menu .nav-item {
   display: flex;
 }
-
-.navbar-brand img {
+.menu .navbar-brand img {
   max-height: 3.5rem;
 }
-
-.logo--rcka {
+.menu .logo--rcka {
   opacity: 1;
 }
-.logo--rcj {
+.menu .logo--rcj {
   opacity: 0.5;
 }
-.logo--rc {
+.menu .logo--rc {
   opacity: 0.5;
 }
 

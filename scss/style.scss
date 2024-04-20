@@ -1,7 +1,8 @@
 @use "./custom";
 
 @use "./components/typography";
+@use "./components/animations";
 
 @use "./sections/navbar";
-@use "./sections/intro";
+@use "./sections/title";
 @use "./sections/about";

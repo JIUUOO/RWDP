@@ -14,12 +14,16 @@
 .display-6 {
   display: flex;
   justify-content: center;
+
   font-family: "Gothic A1", sans-serif;
   font-weight: 500;
 
   &--subtitle {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
     perspective: 800px;
-    animation: subtitleShowUp 1s normal linear;
+    color: $white;
+    // animation: subtitleShowUp 1s normal linear;
     background: $secondary;
   }
 }

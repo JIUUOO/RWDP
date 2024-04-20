@@ -2,32 +2,32 @@
 
 .menu {
   background-color: $white;
-}
 
-.container-fluid {
-  padding: 0;
-}
-
-.nav-item {
-  display: flex;
-}
-
-.navbar-brand {
-  img {
-    max-height: 3.5rem;
-  }
-}
-
-.logo {
-  &--rcka {
-    opacity: 1;
+  .container-fluid {
+    padding: 0;
   }
 
-  &--rcj {
-    opacity: 0.5;
+  .nav-item {
+    display: flex;
   }
 
-  &--rc {
-    opacity: 0.5;
+  .navbar-brand {
+    img {
+      max-height: 3.5rem;
+    }
+  }
+
+  .logo {
+    &--rcka {
+      opacity: 1;
+    }
+
+    &--rcj {
+      opacity: 0.5;
+    }
+
+    &--rc {
+      opacity: 0.5;
+    }
   }
 }

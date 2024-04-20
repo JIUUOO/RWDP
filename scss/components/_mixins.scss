@@ -1,33 +1,8 @@
 @use "../custom" as *;
 
-@keyframes titleShowUp {
-  0% {
-    background-color: $white;
-    fill: $white;
-    color: $white;
-  }
-  50% {
-    background-color: $primary;
-    fill: $primary;
-    color: $primary;
-  }
-  100% {
-    color: $black;
-  }
-}
-
 @mixin absoluteCenter {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@keyframes subtitleShowUp {
-  0% {
-    transform: rotate3d(-1, 0, 0, 0.2turn);
-  }
-  100% {
-    transform: rotate3d(0);
-  }
 }
