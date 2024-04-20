@@ -2,12 +2,17 @@
 @use "../components/mixins" as *;
 
 .display-1 {
-  &--title {
-    display: block;
-    font-family: "Gothic A1", sans-serif;
-    font-weight: 700;
+  font-family: "Gothic A1", sans-serif;
 
-    @include absoluteCenter;
+  &--title {
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  &--subtitle {
+    display: block;
+    margin-top: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -17,13 +22,4 @@
 
   font-family: "Gothic A1", sans-serif;
   font-weight: 500;
-
-  &--subtitle {
-    padding: 1rem 1rem;
-    margin-bottom: 1rem;
-    perspective: 800px;
-    color: $white;
-    // animation: subtitleShowUp 1s normal linear;
-    background: $secondary;
-  }
 }

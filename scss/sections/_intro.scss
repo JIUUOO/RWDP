@@ -1,0 +1,16 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro {
+  background-color: $primary;
+  animation: titleShowUp 2s normal ease-in-out;
+  height: 100vh;
+
+  .container {
+    padding-top: 10rem;
+    width: 100%;
+    height: 100%;
+
+    // color: $black;
+  }
+}
