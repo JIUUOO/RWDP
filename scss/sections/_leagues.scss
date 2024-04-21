@@ -1,0 +1,14 @@
+@use "../custom" as *;
+
+.leagues {
+  background: $white;
+  color: $black;
+
+  .container {
+    margin-top: 5rem;
+  }
+}
+
+.game {
+  display: block;
+}

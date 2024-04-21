@@ -11844,39 +11844,40 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.display-1 {
+span {
   font-family: "Gothic A1", sans-serif;
 }
-.display-1--title {
-  display: inline-block;
+
+.display-2--title-1 {
+  display: block;
   font-weight: 700;
 }
-.display-1--subtitle {
+.display-2--title-2 {
   display: block;
+  font-weight: 600;
+  font-size: 80%;
+}
+.display-2--subtitle {
+  display: inline-block;
   margin-top: 1rem;
   font-size: 2rem;
 }
 
-.display-6 {
-  display: flex;
-  justify-content: center;
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 500;
+.display-4--subject {
+  display: block;
+  font-weight: 300;
+}
+
+.fs-4--p {
+  font-weight: 200;
 }
 
 @keyframes titleShowUp {
-  0% {
-    background-color: #ffffff;
-    fill: #ffffff;
-    color: #ffffff;
+  from {
+    opacity: 0;
   }
-  50% {
-    background-color: #4fccf3;
-    fill: #4fccf3;
-    color: #4fccf3;
-  }
-  100% {
-    color: #000000;
+  to {
+    opacity: 1;
   }
 }
 @keyframes subtitleShowUp {
@@ -11894,7 +11895,7 @@ textarea.form-control-lg {
   padding: 0 0.3rem;
 }
 .menu .nav-item img {
-  max-height: 3.5rem;
+  max-height: 3.7rem;
 }
 @media (max-width: 575.98px) {
   .menu .nav-item img {
@@ -11912,14 +11913,13 @@ textarea.form-control-lg {
 }
 
 .intro {
-  background-color: #4fccf3;
-  animation: titleShowUp 2s normal ease-in-out;
-  height: 100vh;
-}
-.intro .container {
-  padding-top: 10rem;
   width: 100%;
   height: 100%;
+  background-color: #ffffff;
+  animation: titleShowUp 1s normal ease-in;
+}
+.intro .container {
+  padding-top: 8rem;
 }
 
 .about span {
@@ -11929,6 +11929,18 @@ textarea.form-control-lg {
   padding: 1rem 1rem;
   background-color: #3186a0;
   color: #ffffff;
+}
+
+.leagues {
+  background: #ffffff;
+  color: #000000;
+}
+.leagues .container {
+  margin-top: 5rem;
+}
+
+.game {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

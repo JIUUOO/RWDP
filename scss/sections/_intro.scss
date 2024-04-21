@@ -2,15 +2,13 @@
 @use "../components/mixins" as *;
 
 .intro {
-  background-color: $primary;
-  animation: titleShowUp 2s normal ease-in-out;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+
+  background-color: $white;
+  animation: titleShowUp 1s normal ease-in;
 
   .container {
-    padding-top: 10rem;
-    width: 100%;
-    height: 100%;
-
-    // color: $black;
+    padding-top: 8rem;
   }
 }

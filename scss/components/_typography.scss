@@ -1,25 +1,39 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-.display-1 {
+span {
   font-family: "Gothic A1", sans-serif;
+}
 
+.display-2 {
   &--title {
-    display: inline-block;
-    font-weight: 700;
+    &-1 {
+      display: block;
+      font-weight: 700;
+    }
+    &-2 {
+      display: block;
+      font-weight: 600;
+      font-size: 80%;
+    }
   }
 
   &--subtitle {
-    display: block;
+    display: inline-block;
     margin-top: 1rem;
     font-size: 2rem;
   }
 }
 
-.display-6 {
-  display: flex;
-  justify-content: center;
+.display-4 {
+  &--subject {
+    display: block;
+    font-weight: 300;
+  }
+}
 
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 500;
+.fs-4 {
+  &--p {
+    font-weight: 200;
+  }
 }

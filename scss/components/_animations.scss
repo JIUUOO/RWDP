@@ -1,18 +1,11 @@
 @use "../custom" as *;
 
 @keyframes titleShowUp {
-  0% {
-    background-color: $white;
-    fill: $white;
-    color: $white;
+  from {
+    opacity: 0;
   }
-  50% {
-    background-color: $primary;
-    fill: $primary;
-    color: $primary;
-  }
-  100% {
-    color: $black;
+  to {
+    opacity: 1;
   }
 }
 
