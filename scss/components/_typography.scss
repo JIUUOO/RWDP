@@ -35,6 +35,14 @@ span {
   &--subject {
     font-weight: 300;
   }
+
+  &--game-title {
+    font-weight: 500;
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
 }
 
 .fs-3 {
@@ -48,6 +56,18 @@ span {
   &--p {
     display: inline-block;
     font-weight: 200;
+  }
+}
+
+.fs-5 {
+  &--game-description {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+
+    &--bold {
+      font-weight: 400;
+    }
   }
 }
 

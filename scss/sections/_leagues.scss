@@ -1,11 +1,12 @@
 @use "../custom" as *;
 
 .leagues {
-  background: $white;
-  color: $black;
+  background: $black;
+  color: $white;
 
-  .container {
-    margin-top: 5rem;
+  img {
+    display: flex;
+    justify-content: center;
   }
 }
 

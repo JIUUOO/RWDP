@@ -11872,6 +11872,12 @@ span {
 .display-5--subject {
   font-weight: 300;
 }
+.display-5--game-title {
+  font-weight: 500;
+}
+.display-5--game-title--bold {
+  font-weight: 700;
+}
 
 .fs-3--description {
   display: block;
@@ -11881,6 +11887,15 @@ span {
 .fs-4--p {
   display: inline-block;
   font-weight: 200;
+}
+
+.fs-5--game-description {
+  display: block;
+  font-weight: 400;
+  text-align: center;
+}
+.fs-5--game-description--bold {
+  font-weight: 400;
 }
 
 .fw-600 {
@@ -11917,21 +11932,12 @@ span {
     max-height: 3rem;
   }
 }
-.menu .logo-rcka {
-  opacity: 1;
-}
-.menu .logo-rcj {
-  opacity: 0.5;
-}
-.menu .logo-rc {
-  opacity: 0.5;
-}
 
 .intro {
   width: 100%;
   min-height: 100vh;
   background-color: #ffffff;
-  animation: titleShowUp 1s normal ease-in;
+  animation: titleShowUp 500ms normal ease-in;
 }
 .intro .container {
   padding-top: 7rem;
@@ -11963,11 +11969,12 @@ span {
 }
 
 .leagues {
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: #ffffff;
 }
-.leagues .container {
-  margin-top: 5rem;
+.leagues img {
+  display: flex;
+  justify-content: center;
 }
 
 .game {
