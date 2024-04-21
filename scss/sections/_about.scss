@@ -1,13 +1,16 @@
 @use "../custom" as *;
 
 .about {
-  span {
-    display: block;
+  .row {
+    padding-top: 3rem;
   }
 
-  &--intro {
-    padding: 1rem 1rem;
-    background-color: $secondary;
-    color: $white;
+  .fs-4 {
+    span {
+      display: block;
+      @include media-breakpoint-down(xl) {
+        display: inline;
+      }
+    }
   }
 }

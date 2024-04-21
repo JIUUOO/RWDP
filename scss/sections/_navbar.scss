@@ -10,7 +10,7 @@
       max-height: 3.7rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(xl) {
       img {
         max-height: 3rem;
       }
