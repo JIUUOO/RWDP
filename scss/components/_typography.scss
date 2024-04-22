@@ -1,90 +1,14 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-span {
+body {
   font-family: "Gothic A1", sans-serif;
-
-  .indent {
-    @include media-breakpoint-down(xl) {
-      padding-left: 1rem;
-    }
-  }
-
-  @include media-breakpoint-down(xl) {
-    font-size: 90%;
-  }
 }
 
-.display-2 {
-  span {
-    display: block;
+// apply indentation when first paragraph begins
+span .indent {
+  padding-left: 0.5rem;
+  @include media-breakpoint-up(xxl) {
+    padding-left: 0;
   }
-
-  &--title-above {
-    font-size: 2.2rem;
-    font-weight: 200;
-
-    @include media-breakpoint-down(sm) {
-      font-size: 1.8rem;
-    }
-  }
-
-  &--title {
-    font-weight: 700;
-
-    @include media-breakpoint-between(1200, 1399) {
-      font-size: 4rem;
-    }
-  }
-
-  &--subtitle {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  &--league-title {
-    font-weight: 700;
-  }
-}
-
-.display-5 {
-  &--subject {
-    font-weight: 300;
-  }
-
-  &--game-title {
-    font-weight: 500;
-
-    &--bold {
-      font-weight: 700;
-    }
-  }
-}
-
-.fs-3 {
-  &--description {
-    display: block;
-    font-weight: 300;
-  }
-}
-
-.fs-5 {
-  &--p {
-    display: inline-block;
-    font-weight: 200;
-  }
-
-  &--game-description {
-    display: block;
-    font-weight: 400;
-    text-align: center;
-
-    &--bold {
-      font-weight: 400;
-    }
-  }
-}
-
-.fw-600 {
-  font-weight: 600;
 }

@@ -11844,74 +11844,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-span {
+body {
   font-family: "Gothic A1", sans-serif;
 }
-@media (max-width: 1199.98px) {
+
+span .indent {
+  padding-left: 0.5rem;
+}
+@media (min-width: 1400px) {
   span .indent {
-    padding-left: 1rem;
+    padding-left: 0;
   }
-}
-@media (max-width: 1199.98px) {
-  span {
-    font-size: 90%;
-  }
-}
-
-.display-2 span {
-  display: block;
-}
-.display-2--title-above {
-  font-size: 2.2rem;
-  font-weight: 200;
-}
-@media (max-width: 575.98px) {
-  .display-2--title-above {
-    font-size: 1.8rem;
-  }
-}
-.display-2--title {
-  font-weight: 700;
-  font-size: 4rem;
-}
-.display-2--subtitle {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-.display-2--league-title {
-  font-weight: 700;
-}
-
-.display-5--subject {
-  font-weight: 300;
-}
-.display-5--game-title {
-  font-weight: 500;
-}
-.display-5--game-title--bold {
-  font-weight: 700;
-}
-
-.fs-3--description {
-  display: block;
-  font-weight: 300;
-}
-
-.fs-5--p {
-  display: inline-block;
-  font-weight: 200;
-}
-.fs-5--game-description {
-  display: block;
-  font-weight: 400;
-  text-align: center;
-}
-.fs-5--game-description--bold {
-  font-weight: 400;
-}
-
-.fw-600 {
-  font-weight: 600;
 }
 
 @keyframes titleShowUp {
@@ -11948,8 +11891,7 @@ span {
 .intro {
   width: 100%;
   min-height: 100vh;
-  background-color: #ffffff;
-  animation: titleShowUp 500ms normal ease-in;
+  animation: titleShowUp 700ms normal ease-in;
 }
 .intro .container {
   padding-top: 7rem;
@@ -11957,14 +11899,6 @@ span {
 @media (max-width: 1199.98px) {
   .intro .container {
     padding-top: 5rem;
-  }
-}
-.intro .fs-3 span {
-  display: block;
-}
-@media (max-width: 1199.98px) {
-  .intro .fs-3 span {
-    display: inline;
   }
 }
 

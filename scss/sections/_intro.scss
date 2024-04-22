@@ -5,23 +5,14 @@
   width: 100%;
   min-height: 100vh;
 
-  background-color: $white;
-  animation: titleShowUp 500ms normal ease-in;
+  animation: titleShowUp 700ms normal ease-in;
 
   .container {
+    // resize padding-top as navbar resized
     padding-top: 7rem;
 
     @include media-breakpoint-down(xl) {
       padding-top: 5rem;
-    }
-  }
-
-  .fs-3 {
-    span {
-      display: block;
-      @include media-breakpoint-down(xl) {
-        display: inline;
-      }
     }
   }
 }
