@@ -11847,10 +11847,14 @@ textarea.form-control-lg {
 span {
   font-family: "Gothic A1", sans-serif;
 }
-
 @media (max-width: 1199.98px) {
-  .indent {
+  span .indent {
     padding-left: 1rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  span {
+    font-size: 90%;
   }
 }
 
@@ -11858,15 +11862,24 @@ span {
   display: block;
 }
 .display-2--title-above {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 200;
+}
+@media (max-width: 575.98px) {
+  .display-2--title-above {
+    font-size: 1.8rem;
+  }
 }
 .display-2--title {
   font-weight: 700;
+  font-size: 4rem;
 }
 .display-2--subtitle {
   font-size: 2.5rem;
   font-weight: 600;
+}
+.display-2--league-title {
+  font-weight: 700;
 }
 
 .display-5--subject {
@@ -11884,11 +11897,10 @@ span {
   font-weight: 300;
 }
 
-.fs-4--p {
+.fs-5--p {
   display: inline-block;
   font-weight: 200;
 }
-
 .fs-5--game-description {
   display: block;
   font-weight: 400;
@@ -11959,11 +11971,11 @@ span {
 .about .row {
   padding-top: 3rem;
 }
-.about .fs-4 span {
+.about .fs-5 span {
   display: block;
 }
 @media (max-width: 1199.98px) {
-  .about .fs-4 span {
+  .about .fs-5 span {
     display: inline;
   }
 }

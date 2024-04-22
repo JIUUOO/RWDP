@@ -3,11 +3,15 @@
 
 span {
   font-family: "Gothic A1", sans-serif;
-}
 
-.indent {
+  .indent {
+    @include media-breakpoint-down(xl) {
+      padding-left: 1rem;
+    }
+  }
+
   @include media-breakpoint-down(xl) {
-    padding-left: 1rem;
+    font-size: 90%;
   }
 }
 
@@ -17,17 +21,29 @@ span {
   }
 
   &--title-above {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 200;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 1.8rem;
+    }
   }
 
   &--title {
     font-weight: 700;
+
+    @include media-breakpoint-between(1200, 1399) {
+      font-size: 4rem;
+    }
   }
 
   &--subtitle {
     font-size: 2.5rem;
     font-weight: 600;
+  }
+
+  &--league-title {
+    font-weight: 700;
   }
 }
 
@@ -52,14 +68,12 @@ span {
   }
 }
 
-.fs-4 {
+.fs-5 {
   &--p {
     display: inline-block;
     font-weight: 200;
   }
-}
 
-.fs-5 {
   &--game-description {
     display: block;
     font-weight: 400;
