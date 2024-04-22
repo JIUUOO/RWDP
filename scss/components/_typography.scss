@@ -12,3 +12,9 @@ span .indent {
     padding-left: 0;
   }
 }
+
+span {
+  @include media-breakpoint-down(xxl) {
+    font-size: 80%;
+  }
+}

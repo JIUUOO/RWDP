@@ -11857,6 +11857,12 @@ span .indent {
   }
 }
 
+@media (max-width: 1399.98px) {
+  span {
+    font-size: 80%;
+  }
+}
+
 @keyframes titleShowUp {
   from {
     opacity: 0;
