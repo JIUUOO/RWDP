@@ -11894,6 +11894,18 @@ span .indent {
   }
 }
 
+.sponsers .row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+}
+@media (max-width: 991.98px) {
+  .sponsers .row div img {
+    max-height: 4rem;
+  }
+}
+
 .intro {
   width: 100%;
   min-height: 100vh;
@@ -11920,10 +11932,6 @@ span .indent {
   }
 }
 
-.leagues {
-  background: #000000;
-  color: #ffffff;
-}
 .leagues img {
   display: flex;
   justify-content: center;
