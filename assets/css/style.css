@@ -11898,11 +11898,17 @@ span .indent {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0.5rem;
   padding: 0.2rem;
 }
 @media (max-width: 991.98px) {
+  .sponsers .row div {
+    margin: 0;
+  }
+}
+@media (max-width: 991.98px) {
   .sponsers .row div img {
-    max-height: 4rem;
+    max-height: 3.5rem;
   }
 }
 
@@ -11920,9 +11926,6 @@ span .indent {
   }
 }
 
-.about .row {
-  padding-top: 3rem;
-}
 .about .fs-5 span {
   display: block;
 }
