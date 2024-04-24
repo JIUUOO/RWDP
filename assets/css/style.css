@@ -11936,12 +11936,24 @@ span .indent {
 }
 
 .leagues img {
-  display: flex;
-  justify-content: center;
+  width: 50rem;
+  height: 25rem;
+  object-fit: cover;
+}
+.leagues p button {
+  border-color: #000000 !important;
+}
+.leagues p button a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .game {
   display: block;
+}
+
+.footer div img {
+  max-height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,8 +2,19 @@
 
 .leagues {
   img {
-    display: flex;
-    justify-content: center;
+    width: 50rem;
+    height: 25rem;
+    object-fit: cover;
+  }
+
+  p {
+    button {
+      border-color: $black !important;
+      a {
+        color: $black;
+        text-decoration: none;
+      }
+    }
   }
 }
 
