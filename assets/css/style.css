@@ -11934,6 +11934,15 @@ span .indent {
     display: inline;
   }
 }
+.about .carousel {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+}
+.about .carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+}
 
 .leagues img {
   width: 50rem;

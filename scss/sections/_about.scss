@@ -9,4 +9,15 @@
       }
     }
   }
+
+  .carousel {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+
+    .carousel-inner {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
