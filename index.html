@@ -669,5 +669,13 @@
     </section>
 
     <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script>
+      // temporary! 새 창에서 열기
+      const links = document.querySelectorAll("button a");
+
+      for (let link of links) {
+        link.setAttribute("target", "_blank");
+      }
+    </script>
   </body>
 </html>
