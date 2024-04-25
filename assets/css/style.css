@@ -11914,7 +11914,6 @@ span .indent {
 
 .intro {
   width: 100%;
-  min-height: 100vh;
   animation: titleShowUp 700ms normal ease-in;
 }
 .intro .container {
@@ -11935,9 +11934,34 @@ span .indent {
   }
 }
 .about .carousel {
-  height: 30rem;
   display: flex;
   align-items: center;
+  overflow: hidden;
+}
+@media (max-width: 575.98px) {
+  .about .carousel {
+    height: 8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about .carousel {
+    height: 10rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about .carousel {
+    height: 12rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about .carousel {
+    height: 13rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about .carousel {
+    height: 20rem;
+  }
 }
 .about .carousel .carousel-inner {
   display: flex;

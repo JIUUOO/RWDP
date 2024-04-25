@@ -11,13 +11,34 @@
   }
 
   .carousel {
-    height: 30rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
+
+    @include media-breakpoint-down(sm) {
+      height: 8rem;
+    }
+
+    @include media-breakpoint-between(sm, md) {
+      height: 10rem;
+    }
+
+    @include media-breakpoint-between(md, lg) {
+      height: 12rem;
+    }
+
+    @include media-breakpoint-between(lg, xl) {
+      height: 13rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: 20rem;
+    }
 
     .carousel-inner {
       display: flex;
       align-items: center;
+      // object-fit: cover;
     }
   }
 }
