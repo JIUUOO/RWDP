@@ -11914,7 +11914,6 @@ span .indent {
 
 .intro {
   width: 100%;
-  animation: titleShowUp 700ms normal ease-in;
 }
 .intro .container {
   padding-top: 7rem;
@@ -12013,6 +12012,10 @@ span .indent {
 }
 .footer div p {
   font-size: 0.8rem;
+}
+
+body {
+  animation: titleShowUp 700ms normal ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,3 +9,7 @@
 @use "./sections/about";
 @use "./sections/leagues";
 @use "./sections/footer";
+
+body {
+  animation: titleShowUp 700ms normal ease-in;
+}
