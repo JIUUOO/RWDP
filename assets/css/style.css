@@ -11988,5 +11988,8 @@ span .indent {
 .footer div img {
   max-height: 3rem;
 }
+.footer div p {
+  font-size: 0.8rem;
+}
 
 /*# sourceMappingURL=style.css.map */
