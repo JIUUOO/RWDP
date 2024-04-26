@@ -19,25 +19,46 @@
   </head>
   <body>
     <!-- NAVBAR SECTION -->
-    <nav class="navbar navbar-expand fixed-top menu shadow">
-      <div class="container-fluid justify-content-start">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="logo-rcka" href="#section-rcka">
-              <img src="./images/logo/rcka-logo.png" alt="" class="img-fluid" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="logo-rcj" href="#section-rcj">
-              <img src="./images/logo/rcj_logo.jpg" alt="" class="img-fluid" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="logo-rc" href="#section-rc">
-              <img src="./images/logo/rc-logo.png" alt="" class="img-fluid" />
-            </a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg fixed-top menu shadow">
+      <div class="container-fluid">
+        <div class="justify-content-start">
+          <a class="nav-brand logo-rcka" href="#section-rcka">
+            <img src="./images/logo/rcka-logo.png" alt="" class="img-fluid" />
+          </a>
+          <a class="nav-brand logo-rcj" href="#section-rcj">
+            <img src="./images/logo/rcj_logo.jpg" class="img-fluid" alt="" />
+          </a>
+          <a class="nav-brand logo-rc" href="#section-rc">
+            <img src="./images/logo/rc-logo.png" class="img-fluid" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav text-end fs-4">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Leagues</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Rules</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Rewards</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 

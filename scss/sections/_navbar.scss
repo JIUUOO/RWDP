@@ -3,7 +3,8 @@
 .menu {
   background-color: $white;
 
-  .nav-item {
+  a {
+    text-decoration: none;
     padding: 0 0.3rem;
 
     img {

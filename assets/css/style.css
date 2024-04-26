@@ -11882,14 +11882,15 @@ span .indent {
 .menu {
   background-color: #ffffff;
 }
-.menu .nav-item {
+.menu a {
+  text-decoration: none;
   padding: 0 0.3rem;
 }
-.menu .nav-item img {
+.menu a img {
   max-height: 3.7rem;
 }
 @media (max-width: 1199.98px) {
-  .menu .nav-item img {
+  .menu a img {
     max-height: 3rem;
   }
 }
