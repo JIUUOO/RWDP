@@ -11895,6 +11895,9 @@ span .indent {
   }
 }
 
+.sponsers {
+  display: none;
+}
 .sponsers .row div {
   display: flex;
   justify-content: center;

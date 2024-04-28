@@ -1,6 +1,7 @@
 @use "../custom" as *;
 
 .sponsers {
+  display: none;
   .row {
     div {
       display: flex;
