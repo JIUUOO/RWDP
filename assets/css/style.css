@@ -11844,8 +11844,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+.intro {
   font-family: "Gothic A1", sans-serif;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 span .indent {
@@ -11918,6 +11922,7 @@ span .indent {
 
 .intro {
   width: 100%;
+  min-height: 100vh;
 }
 .intro .container {
   padding-top: 7rem;
@@ -11948,6 +11953,7 @@ span .indent {
 .about .carousel .carousel-control-prev,
 .about .carousel .carousel-control-next {
   width: 7%;
+  filter: invert(100%);
 }
 .about .carousel .carousel-control-prev:focus,
 .about .carousel .carousel-control-next:focus {

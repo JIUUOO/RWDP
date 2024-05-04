@@ -1,8 +1,12 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-body {
+.intro {
   font-family: "Gothic A1", sans-serif;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 // apply indentation when first paragraph begins

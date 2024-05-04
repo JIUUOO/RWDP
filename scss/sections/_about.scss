@@ -24,6 +24,7 @@
     .carousel-control-prev,
     .carousel-control-next {
       width: 7%;
+      filter: invert(100%); // change button color to black
 
       &:focus {
         &:hover {
